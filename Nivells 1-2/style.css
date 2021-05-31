@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn{
+    font-size: 14px;
+}
+
+.btn:hover{
+    font-size: 15px;
+}
+
+/* NAVBAR*/
+.navbar{
+    height: 80px;
+}
+.navbar .collapse{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding: 20px 0px;
+}
+
+.navbar .collapse .navbar-nav .nav-item a:hover{
+    color: black;
+}
+
+/* NAVBAR*/
+
+/*HEADING*/
+
+.backg .heading-content{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    max-width: 100%;
+}
+
+    .heading-content h5{
+        font-size: 3.5vw;
+        font-weight: 300;
+        color: white;
+        font-family: 'Lato', sans-serif;;
+    }
+
+    .heading-content h1{
+        font-size: 6.5vw;
+        font-weight: bolder;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .heading-content p{
+        font-size: 2.5vw;
+        font-weight: lighter;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+    }
+
+/*HEADING*/
+
+/*SOBRE MI*/
+.main .sobremi .row .btn:hover{
+    font-size: 15px;
+}
+/*SOBRE MI*/
+
+/*CURRICULUM*/
+
+.curriculum .article h3{
+    font-weight: bold;
+}
+
+.curriculum .row .btn{
+    border: 2px solid rgb(2, 2, 2);
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.curriculum .row .btn:hover{
+    border:2px solid white;
+    cursor: pointer;
+}
+
+.curriculum .btn{
+    border: 2px solid rgb(2, 2, 2);
+    width: 40%;
+    padding: 15px 22px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.curriculum .btn a{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.curriculum .btn:hover{
+    border:4px solid white;
+    cursor: pointer;
+}
+
+
+/*CURRICULUM*/
+
+
+/*tablet*/
+@media (min-width: 575.98px) and (max-width: 991.98px){
+    .navbar{
+        height: 50px;
+    }
+
+}
+
+/*mobil*/
+@media  (max-width: 575.98px){
+    .navbar{
+        height: 50px;
+    }
+
+    .backg .heading-content{
+        top: 25%;
+    }
+
+    .btn{
+        font-size: 10px;
+    }
+    .curriculum .targ{
+        margin-left: auto;
+    }
+}
